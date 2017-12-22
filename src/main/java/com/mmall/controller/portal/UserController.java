@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpSession;
 
 /**
- * Created by geely
+ * request the user
  */
 @Controller
 @RequestMapping("/user/")
@@ -27,7 +27,7 @@ public class UserController {
 
 
     /**
-     * 用户登录
+     * User login
      * @param username
      * @param password
      * @param session
