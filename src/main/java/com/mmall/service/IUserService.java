@@ -4,7 +4,7 @@ import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 
 /**
- * Created by geely
+ * this file is used to deal with the user login
  */
 public interface IUserService {
 

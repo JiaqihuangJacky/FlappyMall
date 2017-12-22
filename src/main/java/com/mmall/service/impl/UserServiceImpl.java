@@ -14,7 +14,7 @@ import org.springframework.util.StringUtils;
 import java.util.UUID;
 
 /**
- * Created by geely
+ * this file is used to deal with the user service
  */
 @Service("iUserService")
 public class UserServiceImpl implements IUserService {
@@ -192,7 +192,7 @@ public class UserServiceImpl implements IUserService {
     //backend
 
     /**
-     * 校验是否是管理员
+     * check if adminstrator
      * @param user
      * @return
      */
