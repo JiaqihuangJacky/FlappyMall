@@ -39,11 +39,12 @@ public class ServerResponse<T> implements Serializable {
     }
 
     @JsonIgnore
-    //use it as json serialization
+    /*use it as json serialization, it will return the success message*/
     public boolean isSuccess(){
         return this.status == ResponseCode.SUCCESS.getCode();
     }
 
+    /*getter for get the status, data and message*/
     public int getStatus(){
         return status;
     }
@@ -54,33 +55,39 @@ public class ServerResponse<T> implements Serializable {
         return msg;
     }
 
-
+    /*call the constructor from the ResponseCode class, then, get the success code*/
     public static <T> ServerResponse<T> createBySuccess(){
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode());
     }
 
+    /*call the constructor from the ResponseCode class, then, get the success code and message*/
     public static <T> ServerResponse<T> createBySuccessMessage(String msg){
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),msg);
     }
 
+    /*call the constructor from the ResponseCode class, then, get the success code and data*/
     public static <T> ServerResponse<T> createBySuccess(T data){
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),data);
     }
 
+    /*call the constructor from the ResponseCode class, then, get the success code, message and data*/
     public static <T> ServerResponse<T> createBySuccess(String msg,T data){
         return new ServerResponse<T>(ResponseCode.SUCCESS.getCode(),msg,data);
     }
 
 
+    /*call the constructor from the ResponseCode class, then, get the error code, message description*/
     public static <T> ServerResponse<T> createByError(){
-        return new ServerResponse<T>(ResponseCode.ERROR.getCode(),ResponseCode.ERROR.getDesc());
+        return new ServerResponse<T>(ResponseCode.ERROR.getCode(), ResponseCode.ERROR.getDesc());
     }
 
 
+    /*call the constructor from the ResponseCode class, then, get the error code, message description*/
     public static <T> ServerResponse<T> createByErrorMessage(String errorMessage){
         return new ServerResponse<T>(ResponseCode.ERROR.getCode(),errorMessage);
     }
 
+    /*call the constructor from the ResponseCode class, then, get the error code, message string*/
     public static <T> ServerResponse<T> createByErrorCodeMessage(int errorCode,String errorMessage){
         return new ServerResponse<T>(errorCode,errorMessage);
     }
