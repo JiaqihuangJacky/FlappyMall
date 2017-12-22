@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * This file is used to deal with teh server response
  */
-@JsonSerialize(include =  JsonSerialize.Inclusion.NON_NULL)
+@JsonSerialize(include =  JsonSerialize.Inclusion.NON_NULL) //reject all the null object
 //make sure that when doing the serialization of json
 //if we encouter the null object, the key will disappear
 public class ServerResponse<T> implements Serializable {
