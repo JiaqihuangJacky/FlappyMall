@@ -6,37 +6,40 @@ import org.codehaus.jackson.map.annotate.JsonSerialize;
 import java.io.Serializable;
 
 /**
- * Created by geely
+ * This file is used to deal with teh server response
  */
 @JsonSerialize(include =  JsonSerialize.Inclusion.NON_NULL)
-//保证序列化json的时候,如果是null的对象,key也会消失
+//make sure that when doing the serialization of json
+//if we encouter the null object, the key will disappear
 public class ServerResponse<T> implements Serializable {
 
     private int status;
     private String msg;
     private T data;
 
+    /*constructor*/
     private ServerResponse(int status){
         this.status = status;
     }
+    /*constructor*/
     private ServerResponse(int status,T data){
         this.status = status;
         this.data = data;
     }
-
+    /*constructor*/
     private ServerResponse(int status,String msg,T data){
         this.status = status;
         this.msg = msg;
         this.data = data;
     }
-
+    /*constructor*/
     private ServerResponse(int status,String msg){
         this.status = status;
         this.msg = msg;
     }
 
     @JsonIgnore
-    //使之不在json序列化结果当中
+    //use it as json serialization
     public boolean isSuccess(){
         return this.status == ResponseCode.SUCCESS.getCode();
     }

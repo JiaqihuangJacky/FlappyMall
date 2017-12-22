@@ -1,3 +1,8 @@
+/**
+ *
+ * This file is create to deal with the
+ * log status
+ */
 package com.mmall.controller.portal;
 
 import com.mmall.common.Const;
@@ -31,7 +36,7 @@ public class UserController {
      * @param username
      * @param password
      * @param session
-     * @return
+     * @return nothing
      */
     @RequestMapping(value = "login.do",method = RequestMethod.POST)
     @ResponseBody
