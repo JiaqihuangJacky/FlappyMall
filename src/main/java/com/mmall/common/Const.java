@@ -5,7 +5,7 @@ import com.google.common.collect.Sets;
 import java.util.Set;
 
 /**
- * Created by geely
+ * this file contains all the constant variables
  */
 public class Const {
 
