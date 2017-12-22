@@ -2,146 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3df9d0-a7d9-4a81-b8e3-6038e6a77038" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/artifacts/mmall_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/artifacts/mmall_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__com_google_zxing_core_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_hashids_hashids_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/mmall.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/out/artifacts/mmall_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/out/artifacts/mmall_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/out/artifacts/mmall_war_exploded/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/alipay/demo/trade/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/common/Const.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/common/ResponseCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/common/ServerResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/common/TokenCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/backend/CategoryManageController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/backend/OrderManageController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/backend/UserManageController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/portal/CartController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/portal/OrderController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/portal/ProductController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/portal/ShippingController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/controller/portal/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/CartMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/CategoryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/OrderItemMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/OrderMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/PayInfoMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/ProductMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/ShippingMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/dao/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/Cart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/Category.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/Order.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/OrderItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/PayInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/Product.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/Shipping.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/pojo/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/ICartService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/ICategoryService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/IFileService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/IOrderService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/IProductService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/IShippingService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/IUserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/CartServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/FileServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/util/BigDecimalUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/util/DateTimeUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/util/FTPUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/util/MD5Util.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/util/PropertiesUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/CartProductVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/CartVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/OrderItemVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/OrderProductVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/OrderVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/ProductDetailVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/ProductListVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/ShippingVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/applicationContext-datasource.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/datasource.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/CartMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/CategoryMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/OrderItemMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/OrderMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/PayInfoMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/ProductMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/ShippingMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mappers/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/mmall.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/resources/zfbinfo.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/web/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mmall/web/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="mmall.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -164,7 +27,68 @@
     <favorites_list name="mmall" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="datasource.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.728972">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6915889">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57731956">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-datasource.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -229,7 +154,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-16" />
     <option name="y" value="-16" />
-    <option name="width" value="2768" />
+    <option name="width" value="2752" />
     <option name="height" value="1756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -316,8 +241,8 @@
       <recent name="C:\Users\Jiaqihuang\IdeaProjects\mmall\src\main\java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jiaqihuang\IdeaProjects\mmall\src" />
       <recent name="C:\Users\Jiaqihuang\IdeaProjects\mmall\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Jiaqihuang\IdeaProjects\mmall\src" />
       <recent name="C:\Users\Jiaqihuang\IdeaProjects\mmall\src\main\resources" />
     </key>
   </component>
@@ -931,28 +856,28 @@
       <workItem from="1508349494249" duration="145000" />
       <workItem from="1508948785822" duration="82000" />
       <workItem from="1513909112345" duration="610000" />
-      <workItem from="1513912322150" duration="1765000" />
+      <workItem from="1513912322150" duration="3889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15690000" />
+    <option name="totallyTimeSpent" value="17814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="2768" height="1756" extended-state="6" />
-    <editor active="false" />
+    <frame x="-16" y="-16" width="2752" height="1756" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834807" sideWeight="0.50948405" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834807" sideWeight="0.509542" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10811836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.108778626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834807" sideWeight="0.49051595" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834807" sideWeight="0.490458" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16426404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16526717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1259,31 +1184,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1299,7 +1200,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/out/artifacts/mmall_war_exploded/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1307,74 +1208,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/out/artifacts/mmall_war_exploded/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.6915889">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/out/artifacts/mmall_war_exploded/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.728972">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/CartVo.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/OrderVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/ShippingVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/OrderItemVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/CartProductVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/ProductListVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmall/src/main/java/com/mmall/vo/OrderProductVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.57731956">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
