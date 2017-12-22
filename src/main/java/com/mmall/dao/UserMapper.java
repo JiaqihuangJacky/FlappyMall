@@ -27,4 +27,6 @@ public interface UserMapper {
 
     //update by their primary key
     int updateByPrimaryKey(User record);
+
+    int checkUsername(String username);
 }
