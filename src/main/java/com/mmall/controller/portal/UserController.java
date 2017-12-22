@@ -30,7 +30,6 @@ public class UserController {
     @Autowired
     private IUserService iUserService;
 
-
     /**
      * User login
      * @param username

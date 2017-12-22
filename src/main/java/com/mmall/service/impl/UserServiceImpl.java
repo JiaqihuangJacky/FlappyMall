@@ -38,11 +38,11 @@ public class UserServiceImpl implements IUserService {
         String md5Password = MD5Util.MD5EncodeUtf8(password);
         User user  = userMapper.selectLogin(username,md5Password);
         if(user == null){
-            return ServerResponse.createByErrorMessage("密码错误");
+            return ServerResponse.createByErrorMessage("Password is incorrect");
         }
 
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
-        return ServerResponse.createBySuccess("登录成功",user);
+        return ServerResponse.createBySuccess("Log in Success",user);
     }
 
 
