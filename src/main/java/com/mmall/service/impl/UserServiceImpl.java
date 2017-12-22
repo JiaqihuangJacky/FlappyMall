@@ -25,11 +25,16 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public ServerResponse<User> login(String username, String password) {
+
+        /*using mysql to obtain the current user by name*/
         int resultCount = userMapper.checkUsername(username);
+
+        /*indiating that there are no such use*/
         if(resultCount == 0 ){
-            return ServerResponse.createByErrorMessage("用户名不存在");
+            return ServerResponse.createByErrorMessage("The user does not exist");
         }
 
+        /*check if the password is correct*/
         String md5Password = MD5Util.MD5EncodeUtf8(password);
         User user  = userMapper.selectLogin(username,md5Password);
         if(user == null){

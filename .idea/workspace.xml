@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc3df9d0-a7d9-4a81-b8e3-6038e6a77038" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
     </list>
     <ignored path="mmall.iws" />
@@ -44,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33364227">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -58,24 +66,29 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-              <folding />
+              <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.738318">
-              <caret line="158" column="11" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.6666667">
+              <caret line="162" column="40" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
               <folding>
-                <marker date="1513982498396" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
-                <marker date="1513982498396" expanded="true" signature="1516:1576" placeholder="delete from " />
-                <marker date="1513982498396" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
-                <marker date="1513982498396" expanded="true" signature="3923:4855" placeholder="update mmall... " />
-                <marker date="1513982498396" expanded="true" signature="4944:5413" placeholder="update mmall... " />
-                <marker date="1513982498396" expanded="true" signature="5502:5561" placeholder="select count... mmall_user" />
+                <marker date="1513983588826" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
+                <marker date="1513983588826" expanded="true" signature="1516:1576" placeholder="delete from " />
+                <marker date="1513983588826" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
+                <marker date="1513983588826" expanded="true" signature="3923:4855" placeholder="update mmall... " />
+                <marker date="1513983588826" expanded="true" signature="4944:5413" placeholder="update mmall... " />
+                <marker date="1513983588826" expanded="true" signature="5502:5561" placeholder="select count... mmall_user" />
+                <marker date="1513983588826" expanded="true" signature="5655:5711" placeholder="select from... " />
+                <marker date="1513983588826" expanded="true" signature="5655:5763" placeholder="select from mmall_user" />
+                <marker date="1513983588826" expanded="true" signature="5655:5786" placeholder="select from mmall_user" />
               </folding>
             </state>
           </provider>
@@ -1194,15 +1207,15 @@
       <workItem from="1513912322150" duration="7645000" />
       <workItem from="1513967939082" duration="2495000" />
       <workItem from="1513975519663" duration="3020000" />
-      <workItem from="1513979187896" duration="1644000" />
+      <workItem from="1513979187896" duration="2693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28729000" />
+    <option name="totallyTimeSpent" value="29778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="2750" height="1756" extended-state="0" />
+    <frame x="-16" y="-16" width="2750" height="1756" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1610,42 +1623,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.738318">
-          <caret line="158" column="11" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
-          <folding>
-            <marker date="1513982498396" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
-            <marker date="1513982498396" expanded="true" signature="1516:1576" placeholder="delete from " />
-            <marker date="1513982498396" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
-            <marker date="1513982498396" expanded="true" signature="3923:4855" placeholder="update mmall... " />
-            <marker date="1513982498396" expanded="true" signature="4944:5413" placeholder="update mmall... " />
-            <marker date="1513982498396" expanded="true" signature="5502:5561" placeholder="select count... mmall_user" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33364227">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="162" column="40" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
+          <folding>
+            <marker date="1513983588826" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
+            <marker date="1513983588826" expanded="true" signature="1516:1576" placeholder="delete from " />
+            <marker date="1513983588826" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
+            <marker date="1513983588826" expanded="true" signature="3923:4855" placeholder="update mmall... " />
+            <marker date="1513983588826" expanded="true" signature="4944:5413" placeholder="update mmall... " />
+            <marker date="1513983588826" expanded="true" signature="5502:5561" placeholder="select count... mmall_user" />
+            <marker date="1513983588826" expanded="true" signature="5655:5711" placeholder="select from... " />
+            <marker date="1513983588826" expanded="true" signature="5655:5763" placeholder="select from mmall_user" />
+            <marker date="1513983588826" expanded="true" signature="5655:5786" placeholder="select from mmall_user" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@ package com.mmall.dao;
  */
 
 import com.mmall.pojo.User;
-
+import org.apache.ibatis.annotations.Param;
 public interface UserMapper {
 
     //delete the primary key function
@@ -28,5 +28,9 @@ public interface UserMapper {
     //update by their primary key
     int updateByPrimaryKey(User record);
 
+    //verify the user's name
     int checkUsername(String username);
+
+    //check the user login status
+    User selectLogin(@Param("username") String username, @Param("password")String password);
 }
