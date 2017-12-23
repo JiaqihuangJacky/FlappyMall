@@ -15,6 +15,7 @@ import java.util.UUID;
 
 /**
  * this file is used to deal with the user service
+ * it include all the implementation of the user services
  */
 @Service("iUserService")
 public class UserServiceImpl implements IUserService {
@@ -48,6 +49,9 @@ public class UserServiceImpl implements IUserService {
 
 
     public ServerResponse<String> register(User user){
+        //check if the user have exist in the database
+        //return the response message as result
+        //we use the useer name as the validation
         ServerResponse validResponse = this.checkValid(user.getUsername(),Const.USERNAME);
         if(!validResponse.isSuccess()){
             return validResponse;
@@ -61,9 +65,9 @@ public class UserServiceImpl implements IUserService {
         user.setPassword(MD5Util.MD5EncodeUtf8(user.getPassword()));
         int resultCount = userMapper.insert(user);
         if(resultCount == 0){
-            return ServerResponse.createByErrorMessage("注册失败");
+            return ServerResponse.createByErrorMessage("Registration fail");
         }
-        return ServerResponse.createBySuccessMessage("注册成功");
+        return ServerResponse.createBySuccessMessage("Registration success");
     }
 
     public ServerResponse<String> checkValid(String str,String type){

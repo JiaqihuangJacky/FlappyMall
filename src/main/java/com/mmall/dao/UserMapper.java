@@ -31,6 +31,9 @@ public interface UserMapper {
     //verify the user's name
     int checkUsername(String username);
 
+    //verify the user's email
+    int checkEmail(String email);
+
     //check the user login status
     User selectLogin(@Param("username") String username, @Param("password")String password);
 }

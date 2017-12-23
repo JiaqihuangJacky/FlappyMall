@@ -37,6 +37,7 @@ public class UserController {
      * @param session
      * @return nothing
      */
+    //log in codes, just set the attribution form the current session
     @RequestMapping(value = "login.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> login(String username, String password, HttpSession session){
@@ -47,6 +48,7 @@ public class UserController {
         return response;
     }
 
+    //log out codes, just remove the attribution form the current session
     @RequestMapping(value = "logout.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> logout(HttpSession session){
@@ -54,6 +56,7 @@ public class UserController {
         return ServerResponse.createBySuccess();
     }
 
+    //registration of new user, return the new user after registration
     @RequestMapping(value = "register.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> register(User user){
