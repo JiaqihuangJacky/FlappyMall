@@ -5,7 +5,9 @@ import org.springframework.util.StringUtils;
 import java.security.MessageDigest;
 
 /**
- * Created by geely
+ * this file is create to make the password invisible for other people
+ * it encode the password using special encoding, and we will decode
+ * it when we neeed to use the password
  */
 public class MD5Util {
 
@@ -27,7 +29,7 @@ public class MD5Util {
     }
 
     /**
-     * 返回大写MD5
+     * return MD5 in uppercase
      *
      * @param origin
      * @param charsetname
@@ -38,6 +40,7 @@ public class MD5Util {
         try {
             resultString = new String(origin);
             MessageDigest md = MessageDigest.getInstance("MD5");
+            //avoid the enmpty set of name
             if (charsetname == null || "".equals(charsetname))
                 resultString = byteArrayToHexString(md.digest(resultString.getBytes()));
             else
@@ -47,6 +50,7 @@ public class MD5Util {
         return resultString.toUpperCase();
     }
 
+    //return a utf 8
     public static String MD5EncodeUtf8(String origin) {
         origin = origin + PropertiesUtil.getProperty("password.salt", "");
         return MD5Encode(origin, "utf-8");

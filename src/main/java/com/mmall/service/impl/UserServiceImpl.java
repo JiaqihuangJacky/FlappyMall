@@ -60,8 +60,11 @@ public class UserServiceImpl implements IUserService {
         if(!validResponse.isSuccess()){
             return validResponse;
         }
+
+        //indicating that this is the customer not the admin staff
         user.setRole(Const.Role.ROLE_CUSTOMER);
-        //MD5加密
+        //MD5 encryption; it will let the database set the specific codes for password
+        //other people will not knwo the password in the database.
         user.setPassword(MD5Util.MD5EncodeUtf8(user.getPassword()));
         int resultCount = userMapper.insert(user);
         if(resultCount == 0){
@@ -76,13 +79,13 @@ public class UserServiceImpl implements IUserService {
             if(Const.USERNAME.equals(type)){
                 int resultCount = userMapper.checkUsername(str);
                 if(resultCount > 0 ){
-                    return ServerResponse.createByErrorMessage("用户名已存在");
+                    return ServerResponse.createByErrorMessage("User has existed");
                 }
             }
             if(Const.EMAIL.equals(type)){
                 int resultCount = userMapper.checkEmail(str);
                 if(resultCount > 0 ){
-                    return ServerResponse.createByErrorMessage("email已存在");
+                    return ServerResponse.createByErrorMessage("email has existed");
                 }
             }
         }else{
