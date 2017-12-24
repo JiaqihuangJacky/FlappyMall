@@ -35,7 +35,7 @@ public class UserServiceImpl implements IUserService {
             return ServerResponse.createByErrorMessage("The user does not exist");
         }
 
-        /*check if the password is correct*/
+        /*check if the password is correct, we will use the password after encoding*/
         String md5Password = MD5Util.MD5EncodeUtf8(password);
         User user  = userMapper.selectLogin(username,md5Password);
         if(user == null){
@@ -66,10 +66,13 @@ public class UserServiceImpl implements IUserService {
         //MD5 encryption; it will let the database set the specific codes for password
         //other people will not knwo the password in the database.
         user.setPassword(MD5Util.MD5EncodeUtf8(user.getPassword()));
+        //inserting the new user after we set up the name and password
         int resultCount = userMapper.insert(user);
+        //0 means fail and 1 means success
         if(resultCount == 0){
             return ServerResponse.createByErrorMessage("Registration fail");
         }
+        //return a server's response as we register successfully
         return ServerResponse.createBySuccessMessage("Registration success");
     }
 
