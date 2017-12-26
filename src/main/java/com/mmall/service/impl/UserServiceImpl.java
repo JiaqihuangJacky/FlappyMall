@@ -77,14 +77,18 @@ public class UserServiceImpl implements IUserService {
     }
 
     public ServerResponse<String> checkValid(String str,String type){
+
+        //we need to void the " " case, since it is invalid and usefuless
         if(org.apache.commons.lang3.StringUtils.isNotBlank(type)){
-            //开始校验
+            //start to verify the user
+            //check the username
             if(Const.USERNAME.equals(type)){
                 int resultCount = userMapper.checkUsername(str);
                 if(resultCount > 0 ){
                     return ServerResponse.createByErrorMessage("User has existed");
                 }
             }
+            //check the email
             if(Const.EMAIL.equals(type)){
                 int resultCount = userMapper.checkEmail(str);
                 if(resultCount > 0 ){
@@ -92,9 +96,10 @@ public class UserServiceImpl implements IUserService {
                 }
             }
         }else{
-            return ServerResponse.createByErrorMessage("参数错误");
+            return ServerResponse.createByErrorMessage("Parameter Error");
         }
-        return ServerResponse.createBySuccessMessage("校验成功");
+        //if success, return the server response
+        return ServerResponse.createBySuccessMessage("Verify Success");
     }
 
     public ServerResponse selectQuestion(String username){
