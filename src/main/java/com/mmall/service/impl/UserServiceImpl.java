@@ -102,18 +102,19 @@ public class UserServiceImpl implements IUserService {
         return ServerResponse.createBySuccessMessage("Verify Success");
     }
 
+    //select the question to answeer
     public ServerResponse selectQuestion(String username){
 
         ServerResponse validResponse = this.checkValid(username,Const.USERNAME);
         if(validResponse.isSuccess()){
-            //用户不存在
-            return ServerResponse.createByErrorMessage("用户不存在");
+            //user does not exist
+            return ServerResponse.createByErrorMessage("User does not exist");
         }
         String question = userMapper.selectQuestionByUsername(username);
         if(org.apache.commons.lang3.StringUtils.isNotBlank(question)){
             return ServerResponse.createBySuccess(question);
         }
-        return ServerResponse.createByErrorMessage("找回密码的问题是空的");
+        return ServerResponse.createByErrorMessage("Question of finding password is empty");
     }
 
     public ServerResponse<String> checkAnswer(String username,String question,String answer){

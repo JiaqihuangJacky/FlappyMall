@@ -36,4 +36,6 @@ public interface UserMapper {
 
     //check the user login status
     User selectLogin(@Param("username") String username, @Param("password")String password);
+
+    String selectQuestionByUsername(String username);
 }

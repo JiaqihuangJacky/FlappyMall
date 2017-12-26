@@ -172,4 +172,11 @@
 
   </select>
 
+  <select id = "selectQuestionByUsername" resultType="string" parameterType="string">
+    select
+    queston
+    from mmall_user
+    where username = #{username}
+  </select>
+
 </mapper>

@@ -4,6 +4,9 @@
     <list default="true" id="bc3df9d0-a7d9-4a81-b8e3-6038e6a77038" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
     </list>
     <ignored path="mmall.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,21 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6267672">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.72855794">
+              <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -118,10 +121,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,19 +130,20 @@
       <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.2429905">
+              <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
               <folding>
-                <marker date="1514071579360" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
-                <marker date="1514071579360" expanded="true" signature="1516:1576" placeholder="delete from " />
-                <marker date="1514071579360" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
-                <marker date="1514071579360" expanded="true" signature="3923:4855" placeholder="update mmall... " />
-                <marker date="1514071579360" expanded="true" signature="4944:5413" placeholder="update mmall... " />
-                <marker date="1514071579360" expanded="true" signature="5502:5562" placeholder="select count... mmall_user" />
-                <marker date="1514071579360" expanded="true" signature="5650:5704" placeholder="select count... mmall_user" />
-                <marker date="1514071579360" expanded="true" signature="5798:5854" placeholder="select from... " />
-                <marker date="1514071579360" expanded="true" signature="5798:5906" placeholder="select from mmall_user" />
-                <marker date="1514071579360" expanded="true" signature="5798:5929" placeholder="select from mmall_user" />
+                <marker date="1514278241538" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
+                <marker date="1514278241538" expanded="true" signature="1516:1576" placeholder="delete from " />
+                <marker date="1514278241538" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
+                <marker date="1514278241538" expanded="true" signature="3923:4855" placeholder="update mmall... " />
+                <marker date="1514278241538" expanded="true" signature="4944:5413" placeholder="update mmall... " />
+                <marker date="1514278241538" expanded="true" signature="5502:5562" placeholder="select count... mmall_user" />
+                <marker date="1514278241538" expanded="true" signature="5650:5704" placeholder="select count... mmall_user" />
+                <marker date="1514278241538" expanded="true" signature="5798:5854" placeholder="select from... " />
+                <marker date="1514278241538" expanded="true" signature="5798:5906" placeholder="select from mmall_user" />
+                <marker date="1514278241538" expanded="true" signature="5798:5929" placeholder="select from mmall_user" />
+                <marker date="1514278241538" expanded="true" signature="6034:6105" placeholder="select from mmall_user" />
               </folding>
             </state>
           </provider>
@@ -186,13 +188,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1274,12 +1276,12 @@
       <workItem from="1513979187896" duration="3577000" />
       <workItem from="1514071142921" duration="2798000" />
       <workItem from="1514234662663" duration="712000" />
-      <workItem from="1514272853410" duration="2734000" />
+      <workItem from="1514272853410" duration="3380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36906000" />
+    <option name="totallyTimeSpent" value="37552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="0" width="2750" height="1738" extended-state="0" />
@@ -1664,35 +1666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-          <folding>
-            <marker date="1514071579360" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
-            <marker date="1514071579360" expanded="true" signature="1516:1576" placeholder="delete from " />
-            <marker date="1514071579360" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
-            <marker date="1514071579360" expanded="true" signature="3923:4855" placeholder="update mmall... " />
-            <marker date="1514071579360" expanded="true" signature="4944:5413" placeholder="update mmall... " />
-            <marker date="1514071579360" expanded="true" signature="5502:5562" placeholder="select count... mmall_user" />
-            <marker date="1514071579360" expanded="true" signature="5650:5704" placeholder="select count... mmall_user" />
-            <marker date="1514071579360" expanded="true" signature="5798:5854" placeholder="select from... " />
-            <marker date="1514071579360" expanded="true" signature="5798:5906" placeholder="select from mmall_user" />
-            <marker date="1514071579360" expanded="true" signature="5798:5929" placeholder="select from mmall_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1719,14 +1692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.290322">
@@ -1737,8 +1702,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6267672">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.2429905">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding>
+            <marker date="1514278241538" expanded="true" signature="1323:1429" placeholder="select from mmall_user" />
+            <marker date="1514278241538" expanded="true" signature="1516:1576" placeholder="delete from " />
+            <marker date="1514278241538" expanded="true" signature="1653:2108" placeholder="insert into mmall_user... " />
+            <marker date="1514278241538" expanded="true" signature="3923:4855" placeholder="update mmall... " />
+            <marker date="1514278241538" expanded="true" signature="4944:5413" placeholder="update mmall... " />
+            <marker date="1514278241538" expanded="true" signature="5502:5562" placeholder="select count... mmall_user" />
+            <marker date="1514278241538" expanded="true" signature="5650:5704" placeholder="select count... mmall_user" />
+            <marker date="1514278241538" expanded="true" signature="5798:5854" placeholder="select from... " />
+            <marker date="1514278241538" expanded="true" signature="5798:5906" placeholder="select from mmall_user" />
+            <marker date="1514278241538" expanded="true" signature="5798:5929" placeholder="select from mmall_user" />
+            <marker date="1514278241538" expanded="true" signature="6034:6105" placeholder="select from mmall_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72855794">
+          <caret line="119" column="46" selection-start-line="119" selection-start-column="46" selection-end-line="119" selection-end-column="46" />
           <folding />
         </state>
       </provider>

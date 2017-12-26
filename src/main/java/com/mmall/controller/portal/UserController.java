@@ -81,7 +81,7 @@ public class UserController {
         return ServerResponse.createByErrorMessage("The user has not log in, unable to get the information");
     }
 
-
+    //helps the user to obtains their password via question
     @RequestMapping(value = "forget_get_question.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> forgetGetQuestion(String username){
