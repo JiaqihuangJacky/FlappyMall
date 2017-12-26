@@ -70,7 +70,7 @@ public class UserController {
         return iUserService.checkValid(str,type);
     }
 
-
+    //get the curretn user's information and record from the session
     @RequestMapping(value = "get_user_info.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> getUserInfo(HttpSession session){
@@ -78,7 +78,7 @@ public class UserController {
         if(user != null){
             return ServerResponse.createBySuccess(user);
         }
-        return ServerResponse.createByErrorMessage("用户未登录,无法获取当前用户的信息");
+        return ServerResponse.createByErrorMessage("The user has not log in, unable to get the information");
     }
 
 
