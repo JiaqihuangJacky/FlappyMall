@@ -123,9 +123,12 @@ public class UserServiceImpl implements IUserService {
         if(resultCount>0){
             //indicates that the answer of the user is correct.
             String forgetToken = UUID.randomUUID().toString();
+            //local cache
             TokenCache.setKey(TokenCache.TOKEN_PREFIX+username,forgetToken);
+            //assign the forage token into the parameter
             return ServerResponse.createBySuccess(forgetToken);
         }
+        //create an error message
         return ServerResponse.createByErrorMessage("Answer is incorrect");
     }
 

@@ -20,6 +20,7 @@ public class TokenCache {
 
     //LRU computtion
     //1000 means that the capacity is 1000 cache（缓存）
+    //if more than 1000, then we will use LRU computation
     //10000 means that max size of cache
     //expire time is 24 hours
     private static LoadingCache<String,String> localCache = CacheBuilder.newBuilder().initialCapacity(1000).maximumSize(10000).expireAfterAccess(12, TimeUnit.HOURS)
