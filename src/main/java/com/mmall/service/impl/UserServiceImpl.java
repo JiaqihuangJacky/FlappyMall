@@ -117,15 +117,16 @@ public class UserServiceImpl implements IUserService {
         return ServerResponse.createByErrorMessage("Question of finding password is empty");
     }
 
+    //check the user's answer
     public ServerResponse<String> checkAnswer(String username,String question,String answer){
         int resultCount = userMapper.checkAnswer(username,question,answer);
         if(resultCount>0){
-            //说明问题及问题答案是这个用户的,并且是正确的
+            //indicates that the answer of the user is correct.
             String forgetToken = UUID.randomUUID().toString();
             TokenCache.setKey(TokenCache.TOKEN_PREFIX+username,forgetToken);
             return ServerResponse.createBySuccess(forgetToken);
         }
-        return ServerResponse.createByErrorMessage("问题的答案错误");
+        return ServerResponse.createByErrorMessage("Answer is incorrect");
     }
 
 

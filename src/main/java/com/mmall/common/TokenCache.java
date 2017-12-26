@@ -9,28 +9,35 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by geely
+ * token the unique id string for computation
  */
 public class TokenCache {
 
     private static Logger logger = LoggerFactory.getLogger(TokenCache.class);
 
+    //prefix representation
     public static final String TOKEN_PREFIX = "token_";
 
-    //LRU算法
+    //LRU computtion
+    //1000 means that the capacity is 1000 cache（缓存）
+    //10000 means that max size of cache
+    //expire time is 24 hours
     private static LoadingCache<String,String> localCache = CacheBuilder.newBuilder().initialCapacity(1000).maximumSize(10000).expireAfterAccess(12, TimeUnit.HOURS)
             .build(new CacheLoader<String, String>() {
-                //默认的数据加载实现,当调用get取值的时候,如果key没有对应的值,就调用这个方法进行加载.
+                //default data loading implementation, when we use the get methond; if there
+                //is no key corresponding value, then you can use this methond for loading
                 @Override
                 public String load(String s) throws Exception {
                     return "null";
                 }
             });
 
+    //put the key and value intothe Cache, so that the outside can use it
     public static void setKey(String key,String value){
         localCache.put(key,value);
     }
 
+    //obtain the current keys, use try...catching to avoid the error
     public static String getKey(String key){
         String value = null;
         try {
