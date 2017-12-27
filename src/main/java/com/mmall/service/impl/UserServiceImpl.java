@@ -135,17 +135,20 @@ public class UserServiceImpl implements IUserService {
 
 
     public ServerResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
+        //we can get a blank token, but this is invalid, and incorrect, we will have to reject it
         if(org.apache.commons.lang3.StringUtils.isBlank(forgetToken)){
-            return ServerResponse.createByErrorMessage("参数错误,token需要传递");
+            return ServerResponse.createByErrorMessage("Parameter is incorrect,token need to be passed");
         }
+        //check if we have the correct user
         ServerResponse validResponse = this.checkValid(username,Const.USERNAME);
         if(validResponse.isSuccess()){
-            //用户不存在
-            return ServerResponse.createByErrorMessage("用户不存在");
+            //user does not exist
+            return ServerResponse.createByErrorMessage("User does not exist");
         }
+        //check if the token is correct
         String token = TokenCache.getKey(TokenCache.TOKEN_PREFIX+username);
         if(org.apache.commons.lang3.StringUtils.isBlank(token)){
-            return ServerResponse.createByErrorMessage("token无效或者过期");
+            return ServerResponse.createByErrorMessage("token is invalid and incorrect");
         }
 
         if(org.apache.commons.lang3.StringUtils.equals(forgetToken,token)){
