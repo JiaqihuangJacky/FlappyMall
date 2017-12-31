@@ -95,7 +95,7 @@ public class UserController {
         return iUserService.checkAnswer(username,question,answer);
     }
 
-
+    //helps the user to do the reset password
     @RequestMapping(value = "forget_reset_password.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> forgetRestPassword(String username,String passwordNew,String forgetToken){

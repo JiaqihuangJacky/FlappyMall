@@ -133,7 +133,7 @@ public class UserServiceImpl implements IUserService {
     }
 
 
-
+    //forget the password, and reset it
     public ServerResponse<String> forgetResetPassword(String username,String passwordNew,String forgetToken){
         //we can get a blank token, but this is invalid, and incorrect, we will have to reject it
         if(org.apache.commons.lang3.StringUtils.isBlank(forgetToken)){
@@ -145,10 +145,11 @@ public class UserServiceImpl implements IUserService {
             //user does not exist
             return ServerResponse.createByErrorMessage("User does not exist");
         }
-        //check if the token is correct
+        //check if the token is correct by the username value
         String token = TokenCache.getKey(TokenCache.TOKEN_PREFIX+username);
+        //check if the token is empty, if empty then display error message
         if(org.apache.commons.lang3.StringUtils.isBlank(token)){
-            return ServerResponse.createByErrorMessage("token is invalid and incorrect");
+            return ServerResponse.createByErrorMessage("token is invalid and incorrect or expire");
         }
 
         if(org.apache.commons.lang3.StringUtils.equals(forgetToken,token)){
