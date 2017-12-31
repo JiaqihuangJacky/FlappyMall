@@ -173,15 +173,16 @@ public class UserServiceImpl implements IUserService {
         //check the count(1), if not the corresponing id, then count > 0 is true;
         int resultCount = userMapper.checkPassword(MD5Util.MD5EncodeUtf8(passwordOld),user.getId());
         if(resultCount == 0){
-            return ServerResponse.createByErrorMessage("旧密码错误");
+            return ServerResponse.createByErrorMessage("Old password is incorrect");
         }
 
+        //update the new password
         user.setPassword(MD5Util.MD5EncodeUtf8(passwordNew));
         int updateCount = userMapper.updateByPrimaryKeySelective(user);
         if(updateCount > 0){
-            return ServerResponse.createBySuccessMessage("密码更新成功");
+            return ServerResponse.createBySuccessMessage("Password update successfully");
         }
-        return ServerResponse.createByErrorMessage("密码更新失败");
+        return ServerResponse.createByErrorMessage("Password update fail");
     }
 
 
