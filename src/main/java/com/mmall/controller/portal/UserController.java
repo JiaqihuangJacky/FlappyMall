@@ -102,14 +102,17 @@ public class UserController {
         return iUserService.forgetResetPassword(username,passwordNew,forgetToken);
     }
 
-
+    //reset the password when log in
     @RequestMapping(value = "reset_password.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<String> resetPassword(HttpSession session,String passwordOld,String passwordNew){
+        //get the curretn user from the sesssion
         User user = (User)session.getAttribute(Const.CURRENT_USER);
+        //if the user does not exist
         if(user == null){
-            return ServerResponse.createByErrorMessage("用户未登录");
+            return ServerResponse.createByErrorMessage("User not log");
         }
+        //service interface
         return iUserService.resetPassword(passwordOld,passwordNew,user);
     }
 

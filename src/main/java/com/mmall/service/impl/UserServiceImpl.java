@@ -167,9 +167,10 @@ public class UserServiceImpl implements IUserService {
         return ServerResponse.createByErrorMessage("Change password fail");
     }
 
-
+    //reset the password when the user is in the log status
     public ServerResponse<String> resetPassword(String passwordOld,String passwordNew,User user){
-        //防止横向越权,要校验一下这个用户的旧密码,一定要指定是这个用户.因为我们会查询一个count(1),如果不指定id,那么结果就是true啦count>0;
+        //Avoid the user violate the right of the other users, it must be the current user, since we will
+        //check the count(1), if not the corresponing id, then count > 0 is true;
         int resultCount = userMapper.checkPassword(MD5Util.MD5EncodeUtf8(passwordOld),user.getId());
         if(resultCount == 0){
             return ServerResponse.createByErrorMessage("旧密码错误");
