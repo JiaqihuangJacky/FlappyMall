@@ -215,11 +215,12 @@ public class UserServiceImpl implements IUserService {
     public ServerResponse<User> getInformation(Integer userId){
         User user = userMapper.selectByPrimaryKey(userId);
         if(user == null){
-            return ServerResponse.createByErrorMessage("找不到当前用户");
+            return ServerResponse.createByErrorMessage("Cannot find the current User");
         }
+        //set the password to empty
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
+        //success message
         return ServerResponse.createBySuccess(user);
-
     }
 
 

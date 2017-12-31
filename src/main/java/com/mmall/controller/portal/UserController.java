@@ -134,13 +134,16 @@ public class UserController {
         return response;
     }
 
+    //get the current user's information
     @RequestMapping(value = "get_information.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> get_information(HttpSession session){
+        //get the current user
         User currentUser = (User)session.getAttribute(Const.CURRENT_USER);
         if(currentUser == null){
-            return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"未登录,需要强制登录status=10");
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"Not Log, need to log in ,where status=10");
         }
+        //return current user's id
         return iUserService.getInformation(currentUser.getId());
     }
 
