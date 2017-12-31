@@ -194,6 +194,7 @@ public class UserServiceImpl implements IUserService {
         if(resultCount > 0){
             return ServerResponse.createByErrorMessage("email has existed, please change to new email");
         }
+        //create a new user and set up all of its information
         User updateUser = new User();
         updateUser.setId(user.getId());
         updateUser.setEmail(user.getEmail());
@@ -201,6 +202,7 @@ public class UserServiceImpl implements IUserService {
         updateUser.setQuestion(user.getQuestion());
         updateUser.setAnswer(user.getAnswer());
 
+        //update the count in the map, only update if this is not null
         int updateCount = userMapper.updateByPrimaryKeySelective(updateUser);
         if(updateCount > 0){
             return ServerResponse.createBySuccess("Update personal information successfully",updateUser);

@@ -116,13 +116,13 @@ public class UserController {
         return iUserService.resetPassword(passwordOld,passwordNew,user);
     }
 
-
+    //update the user inforamtion
     @RequestMapping(value = "update_information.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> update_information(HttpSession session,User user){
         User currentUser = (User)session.getAttribute(Const.CURRENT_USER);
         if(currentUser == null){
-            return ServerResponse.createByErrorMessage("用户未登录");
+            return ServerResponse.createByErrorMessage("User not log");
         }
         user.setId(currentUser.getId());
         user.setUsername(currentUser.getUsername());
