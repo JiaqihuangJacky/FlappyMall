@@ -185,13 +185,14 @@ public class UserServiceImpl implements IUserService {
         return ServerResponse.createByErrorMessage("Password update fail");
     }
 
-
+    //update the user's information
     public ServerResponse<User> updateInformation(User user){
-        //username是不能被更新的
-        //email也要进行一个校验,校验新的email是不是已经存在,并且存在的email如果相同的话,不能是我们当前的这个用户的.
+        //username cannot be update
+        //we need to check the email, so that we can verify if the new email is there
+        //if the email is the same, then we cannot use this user. It cannot be the current user
         int resultCount = userMapper.checkEmailByUserId(user.getEmail(),user.getId());
         if(resultCount > 0){
-            return ServerResponse.createByErrorMessage("email已存在,请更换email再尝试更新");
+            return ServerResponse.createByErrorMessage("email has existed, please change to new email");
         }
         User updateUser = new User();
         updateUser.setId(user.getId());
@@ -202,9 +203,9 @@ public class UserServiceImpl implements IUserService {
 
         int updateCount = userMapper.updateByPrimaryKeySelective(updateUser);
         if(updateCount > 0){
-            return ServerResponse.createBySuccess("更新个人信息成功",updateUser);
+            return ServerResponse.createBySuccess("Update personal information successfully",updateUser);
         }
-        return ServerResponse.createByErrorMessage("更新个人信息失败");
+        return ServerResponse.createByErrorMessage("Update personal information fail");
     }
 
 
