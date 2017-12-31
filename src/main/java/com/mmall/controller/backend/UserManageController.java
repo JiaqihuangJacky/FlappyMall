@@ -27,7 +27,9 @@ public class UserManageController {
     @RequestMapping(value="login.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> login(String username, String password, HttpSession session){
+        /*backend for administrator*/
         ServerResponse<User> response = iUserService.login(username,password);
+        /*when log successfully, then get the user's data, then set the session's data*/
         if(response.isSuccess()){
             User user = response.getData();
             if(user.getRole() == Const.Role.ROLE_ADMIN){
@@ -40,5 +42,4 @@ public class UserManageController {
         }
         return response;
     }
-
 }

@@ -21,6 +21,8 @@ import javax.servlet.http.HttpSession;
 
 /**
  * request the user
+ * GET requests a representation of the specified resource/get data.
+ * POST submits data to be processed.
  */
 @Controller
 @RequestMapping("/user/")
