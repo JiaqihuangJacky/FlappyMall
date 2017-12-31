@@ -153,16 +153,18 @@ public class UserServiceImpl implements IUserService {
         }
 
         if(org.apache.commons.lang3.StringUtils.equals(forgetToken,token)){
+            //get the new password
             String md5Password  = MD5Util.MD5EncodeUtf8(passwordNew);
+            //pass the userMap to get the count
             int rowCount = userMapper.updatePasswordByUsername(username,md5Password);
-
+            //check the count status
             if(rowCount > 0){
-                return ServerResponse.createBySuccessMessage("修改密码成功");
+                return ServerResponse.createBySuccessMessage("Change password successfully");
             }
         }else{
-            return ServerResponse.createByErrorMessage("token错误,请重新获取重置密码的token");
+            return ServerResponse.createByErrorMessage("token is incorrect,please re-get the new password's token");
         }
-        return ServerResponse.createByErrorMessage("修改密码失败");
+        return ServerResponse.createByErrorMessage("Change password fail");
     }
 
 
